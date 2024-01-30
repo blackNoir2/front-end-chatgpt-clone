@@ -20,6 +20,7 @@ However, recognizing the potential for further improvements and enhancements, I 
 3. **Security Key Concealment:** Implemented a feature to hide the security key for enhanced security.
 4. **Chat Clearing Functionality:** Added the ability to clear the chat history for better user experience.
 5. **Error Handling:** Incorporated visual feedback to notify users in case of errors, such as incorrect keys or failed message delivery, etc.
+7. **Interactive Feedback:** Implemented a spinner to provide users with visual feedback, ensuring they are informed when actions are being processed on the page."
 
 ### Future Improvements:
 
