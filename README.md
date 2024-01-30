@@ -28,6 +28,7 @@ However, recognizing the potential for further improvements and enhancements, I 
 
 1. **Accessibility:** Enhance screen readability and ensure accessibility for all users.
 2. **Documentation:** Complete the README with comprehensive details on how the product works, its features, and a detailed description.
+3. **Save chat: ** The ability to save to localStorage
 
 
 You can view the new version of the site here
