@@ -31,5 +31,10 @@ However, recognizing the potential for further improvements and enhancements, I 
 3. **Save chat:** The ability to save to localStorage
 
 
+### A video on how to use the application using Loom
+https://www.loom.com/share/5d313d32483e4fe9982294b043bf23a0?sid=393170c7-60c3-457b-9b8e-ded457db5320
+
+
+
 You can view the new version of the site here
 https://blacknoir2.github.io/front-end-chatgpt-clone/
