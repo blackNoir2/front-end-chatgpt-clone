@@ -17,23 +17,27 @@
         <h2>What would you like to ask us?</h2>
         <form action="/" method="GET">
             <label for="API-KEY">Add your API key here:</label>
-            <input name="API-KEY" type="text" id="API-KEY">
+            <input name="API-KEY" type="text" id="API-KEY" maxlength="128" required>
+            <span><a href="#" class="showKey">Hide key</a></span>
             <label for="search">Add your query here:</label>
-            <textarea name="search" id="search" cols="30" rows="10"></textarea>
-            <button type="submit" id="submit-btn">Submit</button>
+            <textarea name="search" id="search" cols="30" rows="10" maxlength="2000" required></textarea>
+            <button type="submit" id="submit-btn" class="green-bg text-center text-upper">Ask me anything!</button>
         </form>
 
         <div class="title-box">
             <h2 class="system-response">System Response</h2>
         </div>
        
-        <p id="search-item"></p>
+        <p id="search-item" class="white-text"></p>
+
+        <p id="message"></p>
 
 
         <div class=" title-box view-previous-chat">
-            <button class="previous-chat-btn">View previous chat</button>
+            <button class="previous-chat-btn button-md green-bg text-upper">View previous chat</button>
          </div>
 
+         <div class="spinner-medium"></div>
         <div class="title-box">
             <h2 class="previous-chat-title">Previous Chat</h2>
         </div>
@@ -41,6 +45,32 @@
 
         <div class="previous-chat">
         </div>
+        <div class="buttons flex-row flex-end margin-top-sm">
+          <a href="#" class="clear-chat button-md text-upper border-green text-center green-text red-bg clear-chat" id="clear-chat">clear chat</a>
+        </div>
+
+
+        <div class="clear-chat-moodle text-center white-bg">
+          <div class="container">
+
+              <div class="header">
+                <h1 class="green-text">Warning this is irreversable?</h1>
+              </div>
+
+              <div class="body">
+                <p>Would you like to clear your entire chat?</p>
+                <p>This action cannot be undone!!</p>
+              </div>
+
+              <div class="footer">
+                <a href="#" class="button-md text-upper text-center green-text red-bg" id="cancel-btn">cancel</a>
+                <a href="#" class="button-md text-upper text-center green-text border-green green-bg" id="proceed-btn">proceed</a>
+              </div>
+
+          </div>
+        </div>
+
+
     </section>
 
 
