@@ -28,5 +28,5 @@ However, recognizing the potential for further improvements and enhancements, I 
 2. **Documentation:** Complete the README with comprehensive details on how the product works, its features, and a detailed description.
 
 
-You can view the site here
+You can view the new version of the site here
 https://blacknoir2.github.io/front-end-chatgpt-clone/
