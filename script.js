@@ -23,38 +23,6 @@ let conversation          = [];
 let hideKey               = true;
 let isPreviousChatVisible = true;
 
-
-/**
- * Attach event listener to handle the click event on the clear chat button.
- * When the clear chat button is clicked, this function prevents the default
- * action, displays a loading spinner, adds a CSS class to display a confirmation
- * modal for clearing the chat, and toggles the spinner off after a specified
- * duration.
- * 
- * @function handleClearChatBtnClick
- * @returns {void}
- */
-
-function getSearchItem(event) {
-    event.preventDefault();
-
-    const searchInput = document.getElementById('search');
-    const searchContent = searchInput.value;
-
-    addCurrentMessageToConversation("user", searchContent)
-
-    // clear the text after each submission
-    searchInput.value = "";               
-
-    const requestOptions = generateRequestOptions(APIKEY.value);
-    toggleSpinner(true);
-
-    getFetch(API_URL, requestOptions);     
-
-}
-
-
-
 /*
  * Handles the submission of a search query by the user.
  * 
