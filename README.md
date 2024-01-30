@@ -6,7 +6,7 @@ This project was initiated by FAC (Founders and Coders), an organization dedicat
 
 However, recognizing the potential for further improvements and enhancements, I have decided to continue working on this project independently. Hence, I've forked the project to my own repository. Here's why:
 
-1. **Natural Conclusion:** The project reached its conclusion among the team, but there is still room for growth and development.
+1. **Natural Conclusion:** The project reached its conclusion among the team, but there is still room for growth and development,one that I am happy to undertake.
 2. **Learning Opportunity:** Forking the project provides me with the opportunity to explore and utilize GitHub features such as forking, something I haven't previously used.
 3. **Personalization:** By forking the project, I can tailor it to my specific needs and preferences without impacting the original team's work.
 4. **Continuous Improvement:** I believe in the importance of iterative development and continuous improvement. Forking allows me to continue refining the project over time.
