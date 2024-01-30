@@ -21,7 +21,7 @@ However, recognizing the potential for further improvements and enhancements, I 
 4. **Chat Clearing Functionality:** Added the ability to clear the chat history for better user experience.
 5. **Error Handling:** Incorporated visual feedback to notify users in case of errors, such as incorrect keys or failed message delivery, etc.
 7. **Interactive Feedback:** Implemented a spinner to provide users with visual feedback, ensuring they are informed when actions are being processed on the page.
-8. **Clear Text Field: ** After submitting a question for an answer, the form now automatically clears the text field only but not the key - this means the user doesn't have to keep inputting their key everytimie they want to ask a question. This ensures a better user experience by allowing only one question to be asked at a time.
+8. **Clear Text Field:** After submitting a question for an answer, the form now automatically clears the text field only but not the key - this means the user doesn't have to keep inputting their key everytimie they want to ask a question. This ensures a better user experience by allowing only one question to be asked at a time.
 
 
 ### Future Improvements:
