@@ -23,6 +23,7 @@ let conversation          = [];
 let hideKey               = true;
 let isPreviousChatVisible = true;
 
+
 /*
  * Handles the submission of a search query by the user.
  * 
@@ -119,6 +120,10 @@ async function getFetch(endPoint, requestOptions) {
                           duration=5000, 
                           bgColorClass="red-bg");
             toggleSpinner(false);
+
+            // Clear the conversation if the API key is incorrect
+            // This ensures that only questions with corresponding bot answers are stored
+            clearEntireConversation(); 
 
         });
 };
