@@ -2,7 +2,7 @@
 
 # ChatGPT Clone Project
 
-This project was initiated by FAC (Founders and Coders), an organization dedicated to training individuals in software and web development. Our team, consisting of myself (Fran), Ciaran, Nas, and Prince, was tasked with building a ChatGPT clone. We successfully accomplished this task.
+This project was initiated by FAC (Founders and Coders), an organization dedicated to training individuals in software and web development. Our team, consisting of myself, Fran, Ciaran, Nas, and Prince, was tasked with building a ChatGPT clone. We successfully accomplished this task.
 
 However, recognizing the potential for further improvements and enhancements, I have decided to continue working on this project independently. Hence, I've forked the project to my own repository. Here's why:
 
