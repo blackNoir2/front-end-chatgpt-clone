@@ -121,9 +121,9 @@ async function getFetch(endPoint, requestOptions) {
                           bgColorClass="red-bg");
             toggleSpinner(false);
 
-            // Clear the conversation if the API key is incorrect
+            // If the API key is incorrect remove the last item added since it won't contain an answer
             // This ensures that only questions with corresponding bot answers are stored
-            clearEntireConversation(); 
+            clearEntireConversation(removeLastItem=true); 
 
         });
 };
@@ -353,7 +353,20 @@ function hideAPIKeyWhenClicked() {
 }
 
 
-function clearEntireConversation() {
+/**
+ * Clears the conversation history stored in the 'conversation' array.
+ * If 'removeLastItem' is true, removes the last item from the conversation onley.
+ * If 'removeLastItem' is false or not provided, clears the entire conversation.
+ * 
+ * @param {boolean} [removeLastItem=false] - Optional parameter indicating whether to remove only the
+ *                                            last item from the conversation.
+ * @returns {void}
+ */
+function clearEntireConversation(removeLastItem=false) {
+    if (removeLastItem) {
+        conversation.pop();
+        return;
+    }
     conversation = [];
 }
 
